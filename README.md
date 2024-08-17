@@ -1,12 +1,10 @@
-###  DATE: 
-
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
-
-
-
 # EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD
+
+###  DATE: 17 - 08 -2024
+
+###  NAME: BEATRICE THOMAS
+###  ROLL NO : 212223110005
+###  DEPARTMENT: CSE IOT
 
 ## Aim: To Interface a Digital output (LED) to ARM IOT development board and write a  program to blink an led 
 ## Components required: STM32 CUBE IDE, ARM IOT development board,  STM programmer tool.
@@ -87,11 +85,26 @@ The main features of LPC2148 include the following.
 
 ## STM 32 CUBE PROGRAM :
 
+```
+ #include <stdio.h>
+ int main.h
+ while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+   HAL_Delay(1000);
+   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+   HAL_Delay(1000);
+  }
+```
+
 
 
 
 
 ## OUTPUT  :
+
+![Screenshot 2024-08-17 110910](https://github.com/user-attachments/assets/f5370d46-f837-4088-8b47-f3552258a358)
+
  
  
  
